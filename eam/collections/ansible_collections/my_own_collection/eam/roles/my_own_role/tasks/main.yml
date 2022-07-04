@@ -1,0 +1,11 @@
+---
+# tasks file for my_own_role
+- name: CheckOSFamily
+  debug:
+    msg: "OS: {{ ansible_facts['distribution'] }} vers: {{ ansible_distribution_major_version }}"
+
+
+- name: CreateFile
+  my_own_module:
+    path: "{{ test_path }}"
+    content: "{{ test_content }}"

@@ -1,0 +1,4 @@
+---
+# defaults file for my_own_role
+test_path: './my_test_file.txt'
+test_content: 'Testing playbook content'
