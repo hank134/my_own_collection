@@ -1,4 +1,0 @@
-- name: Testing nwe module
-  hosts: localhost
-  roles:
-    - my_own_role
